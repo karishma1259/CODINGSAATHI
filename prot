@@ -1,0 +1,42 @@
+[09:52, 09/07/2023] Vijay@it: @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.wes {
+    background-color: #ffedcb;
+}
+
+.main-page {
+    background-image: url("https://assets.ccbp.in/frontend/static-website/yoga-bg.png");
+    background-color: #ffedcb;
+    background-size: cover;
+    font-family: Roboto;
+    width: 300px;
+    height: 600px;
+}
+
+.yogi-heading {
+    font-size: 24px;
+    text-align: center;…
+[09:52, 09/07/2023] Vijay@it: portfolio
+[09:52, 09/07/2023] Vijay@it: <html lang="en">
+<head>
+    <title>Temperature Conversion</title>
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <label for="celsius">Celsius</label>
+            <input type="number" id="celsius" oninput= "celToFar()">
+        </div>
+        <div class="container">
+            <label for="fahrenheit">Fahrenheit</label>
+            <input type="number" id="fahrenheit" oninput = "farToCel()">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
